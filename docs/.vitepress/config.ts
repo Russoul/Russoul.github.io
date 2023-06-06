@@ -8,7 +8,7 @@ export default defineConfig({
   description: "Russoul's blog",
   base: "/",
   themeConfig: {
-    logo: 'assets/icon.png',
+    logo: '/icon.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
