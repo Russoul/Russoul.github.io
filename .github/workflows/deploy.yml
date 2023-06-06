@@ -21,9 +21,9 @@ jobs:
         with:
           node-version: 16
           cache: npm
-      - run: npm@5 ci
+      - run: npm ci
       - name: Build
-        run: npm@5 run docs:build
+        run: npm run docs:build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
